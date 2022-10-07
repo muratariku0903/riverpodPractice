@@ -1,5 +1,7 @@
-import 'package:riverpod_practice/domain/model/user.dart';
+// Package imports:
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+// Project imports:
+import 'package:riverpod_practice/domain/model/user.dart';
 
 class UserService extends StateNotifier<User> {
   UserService({required User state}) : super(state);
